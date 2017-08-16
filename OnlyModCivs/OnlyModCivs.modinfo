@@ -7,18 +7,26 @@
 		<Authors>username4</Authors>
 		<ShowInBrowser>Show</ShowInBrowser>
 	</Properties>
+	<Components>
+		<UpdateDatabase id="onlymodcivs">
+			<Items>
+				<File>OnlyModCivs.sql</File>
+			</Items>
+		</UpdateDatabase>			
+	</Components>
 	<Settings>
         <Properties>
             <LoadOrder>100</LoadOrder>
         </Properties>	
-		<Custom id="onlymod_menu">
+		<Custom id="onlymodcivs_menu">
 			<Items>
-				<File>onlymod.sql</File>
+				<File>OnlyModCivsMenu.sql</File>
 			</Items>
 		</Custom>	
     </Settings>
 	<Files>
-		<File>onlymod.sql</File>
+		<File>OnlyModCivsMenu.sql</File>
+		<File>OnlyModCivs.sql</File>		
 	</Files>
 </Mod>
 
